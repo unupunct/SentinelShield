@@ -4,6 +4,18 @@ Extensie Google Chrome (Manifest V3) care protejează împotriva phishingului, a
 
 > **Stare:** versiune 0.1.0, încărcabilă prin Developer Mode. **Nu este publicată în Chrome Web Store.**
 
+[![Release](https://img.shields.io/github/v/release/unupunct/SentinelShield)](https://github.com/unupunct/SentinelShield/releases/latest) · [⬇ Descarcă ultima versiune](https://github.com/unupunct/SentinelShield/releases/latest)
+
+| Avertizare (amenințare confirmată) | Avertizare (domeniu omograf) |
+|---|---|
+| ![Avertizare confirmată](docs/img/warning-confirmed.png) | ![Avertizare omograf](docs/img/warning-homograph.png) |
+
+| Popup: permisiuni, domenii terțe, constatări | Panou: istoric local |
+|---|---|
+| <img src="docs/img/popup-behavior.png" width="260"> | ![Istoric](docs/img/dashboard-history.png) |
+
+*Capturi reale din testele automate în Chrome (domenii de test `*.example`).*
+
 ## Ce face
 
 | Funcție | Detalii |
@@ -79,3 +91,6 @@ npm run build:zip     # dist/sentinel-shield-<versiune>.zip
 - [Confidențialitate](docs/CONFIDENTIALITATE.md)
 - [Limitări cunoscute](docs/LIMITARI.md)
 - [Testare și rezultate](docs/TESTARE.md)
+
+## Repository înrudit
+[SentinelShield2](https://github.com/unupunct/SentinelShield2) este o variantă separată, mai simplă (analiză la cerere, fără content scripts obligatorii). Acest proiect (SentinelShield) este varianta completă, cu protecție automată la navigare și analiză comportamentală.
