@@ -18,7 +18,7 @@ Extensie Google Chrome (Manifest V3) care protejează împotriva phishingului, a
 
 ## Instalare ușoară (2 minute, fără compilare)
 
-1. Descarcă **`sentinel-shield-0.1.0.zip`** din [Releases](https://github.com/unupunct/SentinelShield2/releases/latest) și dezarhivează-l într-un folder pe care îl păstrezi (Chrome îl citește de acolo; nu-l șterge).
+1. Descarcă **`sentinel-shield-0.1.0.zip`** din [Releases](https://github.com/unupunct/SentinelShield/releases/latest) și dezarhivează-l într-un folder pe care îl păstrezi (Chrome îl citește de acolo; nu-l șterge).
 2. În Chrome deschide `chrome://extensions` și pornește **Developer mode** (colțul din dreapta sus).
 3. Apasă **Load unpacked** și alege folderul dezarhivat (cel care conține `manifest.json`).
 4. Fixează iconița 🛡 în bara Chrome.
